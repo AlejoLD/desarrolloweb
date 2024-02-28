@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formularios</title>
+</head>
+<body>
+  <h1>Formularios</h1>
+  <form action="" method="">
+    <input type="text"
+    placeholder="usuario"><br></br>
+    <input type="password"
+    placeholder="contraseña"><br></br>
+    <input type="number" size="10" maxlength="10" name="DNI o cedula"
+    placeholder="DNI o cedula"><br></br>
+    Sexo</br>
+    <input type="radio" value="Masculino" name="Sexo">Masculino</br>
+    <input type="radio" value="Femenino" name="Sexo">Femenino</br>
+    incluir mi foto <input type="text"> <input type="file"><br></br>
+      <input type="checkbox"<h3>suscribirme al boletin de novedades</h3><br></br>
+      <input type="button" name="guardar" value="Guardar Cambios" />
+      <input type="reset" name="limpiar" value="Borrar datos del formulario" />
+
+    <button>Enviar</button>
+    <form action="maneja_formulario.php" method="post">
+      <fieldset>
+        <legend>Datos personales</legend>
+        Nombre <br/>
+        <input type="text" name="nombre" value="" />
+        <br/>
+        Apellidos <br/>
+        <input type="text" name="apellidos" value="" />
+        <br/>
+        DNI o Cedula <br/>
+        <input type="text" name="dni" value="" size="10" maxlength="9" /><br/>
+        fecha de expedición <br/>
+        <input type="date" name="date" value="" 
+      </fieldset></br>
+      <form action="insertar_producto.php" method="post"></br>
+
+        <label for="nombre">Nombre del producto</label> <br/>
+        <input type="text" id="nombre" name="nombre" value="" /></br>
+        
+        <label for="descripcion">Descripción del producto</label> <br/>
+        <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+        
+        </form><br/>
+        <label for="so">Sistema operativo</label> <br/>
+<select id="so" name="so">
+  <option value="" selected="selected">- selecciona -</option>
+  <option value="windows">Windows</option>
+  <option value="mac">Mac</option>
+  <option value="linux">Linux</option>
+  <option value="otro">Otro</option>
+</select>
+    
+      <fieldset>
+        <legend>Datos de conexión</legend>
+        Nombre de usuario<br/>
+        <input type="text" name="nombre" value="" maxlength="10" />
+        <br/>
+        Contraseña<br/>
+        <input type="password" name="password" value="" maxlength="10" />
+        <br/>
+        Repite la contraseña<br/>
+        <input type="password" name="password2" value="" maxlength="10" />
+      </fieldset>
+    </form>
+    
+  </form>
+</body>
+</html>

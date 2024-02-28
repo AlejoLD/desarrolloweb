@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #edf2f4;
+}
+
+header{
+    text-align: center;
+    color: #005f73;
+}
+.ContenedorPrincipal{
+    display:flex;
+    gap: 20px;
+    padding: 10px;
+}
+.navegacion{
+    background-color:#edf2f4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width:max-content;
+}
+
+.ul-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    list-style:none;
+}
+
+.ul-nav li{
+    background-color:#fffcf2;
+    padding:10px;
+}
+
+.ul-nav li a{
+    text-decoration: none;
+    color:#005f73;
+}
+
+.main-contenedor{
+    display: flex;
+    flex-direction:column;
+    width: 100%;
+}
+
+.contenedorligas{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    width: 100%;
+}
+
+.subsection-liga{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.equipos{
+    background-color: bisque;
+    width: 200px;
+    height:240px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    border-radius:8px;
+    padding: 10px;
+    border: 2px solid #005f73;
+}
+
+.equipos img{
+    width:130px;
+}
+
+h3{
+    color: #bf0603;
+    text-align: center;
+}
+.jugadores{
+    color:#005f73 ;
+    text-align: center;
+}
+h2{
+    color: #005f73;
+    text-align: center;
+}
+
+.contenedor-tabla{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tabla{
+    padding: 10px;
+    border: 1px solid #bf0603;
+    border-radius: 8px;
+    background-color: #005f73;
+}
+
+.tabla th,.tabla td{
+    border:1px solid #005f73;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:bisque;
+}
+
+.contendor-jugador{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.jugador{
+    height:210px;
+    width:120px;
+}
+.logo{
+    width:120px;
+}
+
+footer{
+    background-color: antiquewhite;
+    height: 50px;
+}
